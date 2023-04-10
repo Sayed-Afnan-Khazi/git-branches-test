@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+h1 {
+/*	border: 2px solid pink;*/
+	font-family: fantasy;
+	text-decoration: underline;
+	text-decoration-color: pink;
+	text-align: center;
+}
+
+img {
+	height: 300px;
+	width: 375px;
+	margin: 10px;
+	padding: 5px;
+	border: 2px dotted pink;
+	transition: all 1s;
+}
+
+img:hover {
+	border: 3px solid pink;
+	transform: scale(1.1);
+}
